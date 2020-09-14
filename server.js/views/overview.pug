@@ -1,0 +1,14 @@
+﻿extends layout
+
+block title
+    title overview
+    script( type="text/javascript" src="https://www.gstatic.com/charts/loader.js")
+    //script(src='./misc/index.json')
+    script(src='./javascripts/Charts.js')
+
+block content
+    h1 Overview!
+    h2 Welcome to the Overview Page
+    div(class=card)
+        div(id="chart_div")
+
